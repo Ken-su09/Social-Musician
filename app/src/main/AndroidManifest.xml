@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.suonk.socialmusician">
+    <!-- To auto-complete the email text field in the sign_in form with the user's emails -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo_social_musician"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_logo_social_musician"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".controller.activity.AccountOrNotActivity"></activity>
+        <activity android:name=".controller.activity.SignUpActivity" />
+        <activity android:name=".controller.activity.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".controller.activity.MyFriendsActivity" />
+        <activity android:name=".controller.activity.SignInActivity" />
+        <activity
+            android:name=".controller.activity.MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".controller.activity.MyProfileActivity"
+            android:theme="@style/AppTheme" />
+    </application>
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+</manifest>

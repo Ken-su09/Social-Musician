@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- Light/Day Mode theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="backgroundColor">@color/backgroundColorLight</item>
+        <item name="textColor">@color/textColorLight</item>
+        <item name="textColorGrey">@color/textColorLightGrey</item>
+        <item name="backgroundPressedColor">@color/backgroundPressedColorLight</item>
+        <item name="borderViewColor">@color/borderViewColor</item>
+        <item name="android:windowAnimationStyle">@style/noAnimTheme</item>
+    </style>
+
+    <!-- Dark/Night Mode theme. -->
+    <style name="DarkTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="backgroundColor">@color/backgroundColorDark</item>
+        <item name="textColor">@color/textColorDark</item>
+        <item name="textColorGrey">@color/textColorDarkGrey</item>
+        <item name="backgroundPressedColor">@color/backgroundPressedColorDark</item>
+        <item name="borderViewColor">@color/borderViewColor</item>
+        <item name="colorSurface">@color/borderViewColor</item>
+        <item name="android:windowAnimationStyle">@style/noAnimTheme</item>
+    </style>
+
+
+    <style name="windowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+
+    <style name="noAnimTheme" parent="android:Theme">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--region ====================================== Theme Light ====================================== -->
+
+    <color name="textColorLight">#2B2B2B</color>
+    <color name="backgroundColorLight">#f8f9fb</color>
+    <color name="textColorLightGrey">#cccccc</color>
+    <color name="transparentLightColor">#FFFFFFFF</color>
+    <color name="backgroundPressedColorLight">#d8d8d8</color>
+
+    <!--endregion !-->
+
+    <!--region ====================================== Theme Dark ======================================= -->
+
+    <color name="textColorDark">#ebebeb</color>
+    <color name="backgroundColorDark">#282828</color>
+    <color name="textColorDarkGrey">#6C6C6C</color>
+    <color name="transparentDarkColor">#FF000000</color>
+    <color name="backgroundPressedColorDark">#b2b2b2</color>
+
+    <!--endregion !-->
+
+<!--    <color name="colorPrimary">#e90220</color>-->
+    <color name="colorPrimary">#1550c4</color>/
+<!--    <color name="colorPrimaryLight">#d41b30</color>-->
+    <color name="colorPrimaryLight">#1e55ff</color>
+    <color name="colorPrimaryDark">#0026c4</color>
+<!--    <color name="colorPrimaryDark">#b51b30</color>-->
+    <color name="colorAccent">#4D6361</color>
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="blackColor">#000000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="whiteBackground">#f8f9fd</color>
+
+    <color name="borderViewColor">#f3f3f3</color>
+
+    <color name="nav_header_textColor">#2B2B2B</color>
+
+    <color name="editTextBackgroundColor">#eeeeee</color>
+
+    <color name="relativeLayoutPressedColorDark">#777777</color>
+    <color name="borderViewColorDark">#646464</color>
+
+    <color name="colorBlueLinkLight">#2dabff</color>
+    <color name="colorBlueLinkClick">#2e63c9</color>
+</resources>

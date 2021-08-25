@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sax">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_1"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="Créer un compte"
+        android:textColor="@color/white"
+        android:background="@drawable/rectangle_button_background_blue"
+        android:layout_above="@+id/button_2"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_2"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="75dp"
+        android:text="Je dispose déjà d'un compte"
+        android:textColor="#686868"
+        android:background="@drawable/rectangle_button_background_white"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/sign_in_activity_app_logo_content_description"
+        android:src="@drawable/ic_logo_social_musician" />
+
+</RelativeLayout>
